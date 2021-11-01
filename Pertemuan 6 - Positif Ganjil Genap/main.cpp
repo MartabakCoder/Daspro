@@ -13,9 +13,14 @@ int main()
     //ALGORITMA
     cin>>x;
     if(x>0){
-
+        if(x%2 == 0){
+            cout<<"Bilangan positif Genap"<<endl;
+        }else{
+            cout<<"Bilangan positif Ganjil"<<endl;
+        }
     }else{
-        cout<<"Bukan bilangan positif"<<endl;
+        cout<<"Bukan bilangan negatif"<<endl;
     }
+    cout<<"Finish"<<endl;
     return 0;
 }
